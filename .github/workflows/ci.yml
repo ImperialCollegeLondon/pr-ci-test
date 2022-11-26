@@ -1,5 +1,6 @@
 on:
   - push
+  - pull_request
 jobs:
   qa:
     runs-on: ubuntu-latest
